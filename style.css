@@ -1,5 +1,10 @@
 body {
 	background-color: white;
+	font-size: small;
+}
+
+body a{
+	font-family: arial,sans-serif;
 }
 
 body #hplogo {
@@ -22,11 +27,11 @@ body #search {
 	width: 559px;
 	height: 34px;
 	border: 2px solid #f2f2f2;
-  box-shadow: 2px 2px 2px #888888;
-    }
+	box-shadow: 2px 2px 2px #888888;
+ }
 
 body #button {
-	padding-left: 15%;
+	padding-left: 22%;
 	padding-top: 30px;
 }
  body input {
@@ -50,13 +55,110 @@ body #button input:hover{
 	color: #222;
 }
 body #button input:focus{
+	position:absolute;
 	border: 1px solid #4d90fe;
 	outline: none;
+	bottom: 0;
+	height: 52px;
+	width: 100%;
 }
 
-body #bottom {
-	background-color: #f2f2f2;
-	border-top: 1px solid #e4e4e4;
-    line-height: 40px;
-    min-width: 980px;
+body div.bar{
+	width: 100%;
+	height: 48px;
 }
+
+body div.bar a{
+	text-decoration: none;
+}
+
+body #top{
+	margin: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	background-color: white;
+}
+
+body #top span{
+	margin-top: 11px;
+	height: 37px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-right:10px;
+	padding:0 12px 0 12px;
+}
+body #top span #ga{
+	display: inline-block;
+	background-image: url('./images/ga.png');
+	vertical-align: middle;
+	opacity: .55;
+	vertical-align: middle;
+	height:30px;
+	width: 30px;
+}
+
+body #top span #ga:hover{
+	opacity: .85;
+}
+body #top span #sib{
+	display: inline-block;
+	color: #fff;
+	background: -moz-linear-gradient(top,#4387fd,#4683ea);
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: bold;
+	outline: none;
+	height: 24px;
+	width: 75px;
+	text-align: center; 
+	vertical-align: middle;
+	padding-top: 6px;
+	position:relative;
+	text-decoration: none;
+}
+
+body #top span a{
+	margin-left:12px;
+	color:black;
+}
+
+body div.bar a:hover{
+	text-decoration: underline;
+}
+
+body #bottom{
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+
+}
+
+body #bottom span{
+	margin-top: 11px;
+	height: 37px;
+	display: inline-block;
+}
+
+body #bottom span a{
+	margin: 10px;
+	height: 100%;
+	color: #666;
+}
+
+body #fl{
+	margin-right: 30px;
+	margin-left:10px;
+}
+
+body #fr{
+	position: absolute;
+	right: 0;
+	margin-left:30px;
+	margin-right: 10px; 
+}
+
